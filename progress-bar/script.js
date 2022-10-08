@@ -14,3 +14,13 @@ progressBarNext.addEventListener('click', () => {
 
     console.log(currentActive)
 })
+
+progressBarPrev.addEventListener('click', () => {
+    currentActive--
+
+    if (currentActive < 1) {
+        currentActive = 1
+    }
+
+    console.log(currentActive)
+})

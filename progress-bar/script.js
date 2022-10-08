@@ -13,6 +13,7 @@ progressBarNext.addEventListener('click', () => {
     }
 
     console.log(currentActive)
+    updateDisplay()
 })
 
 progressBarPrev.addEventListener('click', () => {
@@ -23,4 +24,15 @@ progressBarPrev.addEventListener('click', () => {
     }
 
     console.log(currentActive)
+    updateDisplay()
 })
+
+function updateDisplay() {
+    circles.forEach((circle, idx) => {
+        if (idx < currentActive) {
+            circle.classList.add('active')
+        } else {
+            circle.classList.remove('active')
+        }
+    })
+}

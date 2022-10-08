@@ -35,4 +35,19 @@ function updateDisplay() {
             circle.classList.remove('active')
         }
     })
+
+    const actives = document.querySelectorAll('.active')
+
+    progressBar.style.width = ((actives.length -1) / (circles.length -1))*100 + '%' 
+
+    if(currentActive === 1){
+        progressBarPrev.disabled = true;
+    } else if (currentActive === circles.length) {
+        progressBarNext.disabled = true;
+    } else {
+        progressBarPrev.disabled = false
+        progressBarNext.disabled = false
+    }
+
 }
+

@@ -6,11 +6,12 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    display: flex;
+    background-color: #333;
+    color: #222;
     margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    align-items: center;
+    overflow-x: hidden;
+
+}
+
+
 }

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg, white, lightgray);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+}
+
+.search{
+    position: relative;
+    height: 50px;
+}

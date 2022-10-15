@@ -17,12 +17,12 @@ body{
 .bg {
     background: url('https://media.istockphoto.com/videos/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke-video-id1341408852?b=1&k=20&m=1341408852&s=640x640&h=C6ymXpr_Jn6-WqQmHHuS8z6TGBtkWDQ9x6tFs_hsBjs=') no-repeat center center/cover;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
     z-index: -1;
-    filter: blur(70px);
+    filter: blur(0px);
 }
 
 .loading-text{

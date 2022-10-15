@@ -7,11 +7,12 @@
 body{
     font-family: 'Roboto', sans-serif;
     display: flex;
-    margin: 0;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    align-items: center;
+    margin: 0;
 }
 
 .bg {
@@ -26,3 +27,7 @@ body{
 
 }
 
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}

@@ -75,6 +75,13 @@ body{
     color: #fff;
 }
 
-.form-control input:focus, .form-control input:valid{
+.form-control input:focus, 
+.form-control input:valid{
     outline: 0;
+}
+
+.form-control label{
+    position: absolute;
+    top: 15px;
+    left: 0;
 }

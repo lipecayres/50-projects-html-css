@@ -26,4 +26,6 @@ body{
     padding: 1.5rem 3rem;
     font-size: 1.2rem;
     font-family: inherit;
+    cursor: pointer;
 }
+

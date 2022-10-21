@@ -5,12 +5,14 @@
 }
 
 body{
+    background-color: rgb(161,100,223);
     font-family: 'Roboto', sans-serif;
     display: flex;
-    margin: 0;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    text-align: center;
     height: 100vh;
     overflow: hidden;
-    align-items: center;
+    margin: 0;
 }

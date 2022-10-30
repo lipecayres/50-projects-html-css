@@ -47,3 +47,11 @@ function randomSelect() {
   }
 
 }
+
+function highlighhTag(){
+  tag.classList.add('highlight')
+}
+
+function unhighlighhTag(){
+  tag.classList.remove('highlight')
+}

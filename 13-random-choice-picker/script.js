@@ -33,6 +33,12 @@ function randomSelect() {
 
   const interval = setInterval(() => {
     const randomTag = pickRandomTag()
+
+    highlighhTag(randomTag)
+
+    setInterval(() => {
+      unhighlighhTag(randomTag)
+    }, 100);
   }, 100);
 
   function pickRandomTag() {

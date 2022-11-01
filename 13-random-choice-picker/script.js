@@ -36,17 +36,17 @@ function randomSelect() {
 
     highlightTag(randomTag)
 
-    setInterval(() => {
-      unhighlightTag(randomTag)
+    setTimeout(() => {
+        unhighlightTag(randomTag)
     }, 100);
-  }, 100);
+  },100);
+};
 
-  function pickRandomTag() {
-    const tags = document.querySelectorAll('tags')
+function pickRandomTag() {
+    const tags = document.querySelectorAll('tag')
     return tags[Math.floor(Math.random() * tags.length)]
   }
 
-}
 
 function highlightTag(tag){
   tag.classList.add('highlight')

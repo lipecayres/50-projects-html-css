@@ -5,12 +5,25 @@
 }
 
 body{
+    background-color: #eafbff;
+    background-image: linear-gradient(
+        to bottom, 
+        #eafbff 0%, 
+        #eafbff 50%, 
+        #5290f9 50%,
+        #5290f9 100%
+    );
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin: 0;
-    flex-direction: column;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
     align-items: center;
 }
+
+nav{
+    background-color: #eafbff;
+    padding: 20px;
+    width: 80px;
+}
+

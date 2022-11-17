@@ -27,3 +27,6 @@ nav{
     width: 80px;
 }
 
+nav.active{
+    width: 350px;
+}

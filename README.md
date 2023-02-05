@@ -1,7 +1,7 @@
 # Challenge 50 projects using HTML/CSS/JS
 
 ### Challenge 1 - Expanding Cards
-Link:
+Link: https://transcendent-croissant-1397f8.netlify.app/
 
 ### Challenge 2 - Progress Bar
 Link: https://mellow-malasada-088740.netlify.app/

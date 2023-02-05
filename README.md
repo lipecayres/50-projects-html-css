@@ -12,8 +12,8 @@ Link: https://dynamic-meringue-46feda.netlify.app/
 ### Challenge 4 - Hidden Search
 Link: https://lovely-pika-66dc6a.netlify.app/
 
-### Challenge 5 - Expanding Cards
-Link:
+### Challenge 5 - Blurry Loading
+Link: https://meek-ganache-cc3447.netlify.app/
 
 ### Challenge 6 - Expanding Cards
 Link:

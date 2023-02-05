@@ -16,7 +16,7 @@ Link: https://lovely-pika-66dc6a.netlify.app/
 Link: https://meek-ganache-cc3447.netlify.app/
 
 ### Challenge 6 - Expanding Cards
-Link:
+Link: https://comfy-pithivier-62ccd2.netlify.app/
 
 ### Challenge 7 - Split Landing Page
 Link: https://sprightly-biscuit-8d5c3a.netlify.app/

@@ -3,11 +3,11 @@
 ### Challenge 1 - Expanding Cards
 Link:
 
-### Challenge 2 - Expanding Cards
-Link:
+### Challenge 2 - Progress Bar
+Link: https://mellow-malasada-088740.netlify.app/
 
-### Challenge 3 - Expanding Cards
-Link:
+### Challenge 3 - Rotating Navigation
+Link: https://dynamic-meringue-46feda.netlify.app/
 
 ### Challenge 4 - Expanding Cards
 Link:
@@ -18,8 +18,8 @@ Link:
 ### Challenge 6 - Expanding Cards
 Link:
 
-### Challenge 7 - Expanding Cards
-Link:
+### Challenge 7 - Split Landing Page
+Link: https://sprightly-biscuit-8d5c3a.netlify.app/
 
 ### Challenge 8 - Expanding Cards
 Link:

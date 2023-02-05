@@ -21,8 +21,8 @@ Link: https://comfy-pithivier-62ccd2.netlify.app/
 ### Challenge 7 - Split Landing Page
 Link: https://sprightly-biscuit-8d5c3a.netlify.app/
 
-### Challenge 8 - Expanding Cards
-Link:
+### Challenge 8 - Form Wave Animation
+Link: https://sage-otter-40ecda.netlify.app/
 
 ### Challenge 9 - Expanding Cards
 Link:

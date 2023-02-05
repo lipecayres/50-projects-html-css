@@ -37,7 +37,7 @@ Link: https://sensational-praline-b8960f.netlify.app/
 Link: https://serene-croissant-020394.netlify.app/
 
 ### Challenge 13 - Random Choice Picker
-Link: https://aesthetic-selkie-7f6ee1.netlify.app/
+Link: https://glowing-rabanadas-d0e694.netlify.app/
 
 ### Challenge 14 - 
 Link: 

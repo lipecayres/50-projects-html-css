@@ -27,7 +27,7 @@ Link:
 ### Challenge 9 - Expanding Cards
 Link:
 
-### Challenge 10 - Expanding Cards
-Link:
+### Challenge 10 - Dad Jokes
+Link: https://cheerful-conkies-fe5356.netlify.app/
 
 

@@ -20,7 +20,7 @@ function createTags(input){
 
   tagsEl.innerHTML = ''
 
-  tags.forEach(tag=> {
+  tags.forEach(tag => {
     const tagEl = document.createElement('span')
     tagEl.classList.add('tag')
     tagEl.innerText = tag
@@ -43,7 +43,7 @@ function randomSelect() {
 };
 
 function pickRandomTag() {
-    const tags = document.querySelectorAll('tag')
+    const tags = document.querySelectorAll('.tag')
     return tags[Math.floor(Math.random() * tags.length)]
   }
 

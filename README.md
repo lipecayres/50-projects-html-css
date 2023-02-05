@@ -9,8 +9,8 @@ Link: https://mellow-malasada-088740.netlify.app/
 ### Challenge 3 - Rotating Navigation
 Link: https://dynamic-meringue-46feda.netlify.app/
 
-### Challenge 4 - Expanding Cards
-Link:
+### Challenge 4 - Hidden Search
+Link: https://lovely-pika-66dc6a.netlify.app/
 
 ### Challenge 5 - Expanding Cards
 Link:

@@ -25,6 +25,9 @@ nav{
     background-color: #eafbff;
     padding: 20px;
     width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 3px;
     box-shadow:  0 2px 5px rgba(0,0,0,0.3);
 }

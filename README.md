@@ -39,7 +39,7 @@ Link: https://serene-croissant-020394.netlify.app/
 ### Challenge 13 - Random Choice Picker
 Link: https://glowing-rabanadas-d0e694.netlify.app/
 
-### Challenge 14 - 
-Link: 
+### Challenge 14 - Animated Navigation
+Link: https://shimmering-kangaroo-0dddfb.netlify.app/
 
 

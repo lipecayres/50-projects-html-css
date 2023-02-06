@@ -21,6 +21,8 @@ body{
     align-items: center;
 }
 
+        /* Nav bar */
+        
 nav{
     background-color: #eafbff;
     padding: 20px;
@@ -67,3 +69,5 @@ nav ul a{
     text-decoration: none;
     margin: 0 10px;
 }
+
+        /* Button Design */

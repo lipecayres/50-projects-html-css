@@ -22,7 +22,7 @@ body{
 }
 
         /* Nav bar */
-        
+
 nav{
     background-color: #eafbff;
     padding: 20px;
@@ -71,3 +71,17 @@ nav ul a{
 }
 
         /* Button Design */
+
+.icon{
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+.icon:focus{
+    outline: 0;
+}

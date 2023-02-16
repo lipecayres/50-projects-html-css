@@ -15,7 +15,7 @@ Link: https://lovely-pika-66dc6a.netlify.app/
 ### Challenge 5 - Blurry Loading
 Link: https://meek-ganache-cc3447.netlify.app/
 
-### Challenge 6 - Expanding Cards
+### Challenge 6 - Scroll Animation
 Link: https://comfy-pithivier-62ccd2.netlify.app/
 
 ### Challenge 7 - Split Landing Page

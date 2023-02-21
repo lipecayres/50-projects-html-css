@@ -39,4 +39,12 @@ function updateBigCup(){
         percentage.style.height = `${(fullCups / allCups)*330 }px`
         percentage.innerText = `${(fullCups / allCups)*100}%`
     }
+
+    if (fullCups == allCups) {
+        remained.style.visibility = 'hidden'
+        remained.style.height = 0
+    } else {
+        remained.style.visibility = 'visible'
+        liters.innerText = `${2-(0.25 * fullCups)}L`
+    }
 }

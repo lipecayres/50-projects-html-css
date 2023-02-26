@@ -65,7 +65,8 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
             `
 
         })
-
+            // Getting class using rate
+            
         function getClassByRate(vote) {
             if (vote > 8) {
                 return 'green'

@@ -49,7 +49,6 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
 
             movieEl.innerHTML = `
             <!-- Movie Banners-->
-            <div class="movie">
                 <img src="${IMG_PATH + poster_path}" alt="${title}">
     
                 <div class="movie-info">
@@ -60,8 +59,6 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
                 <div class="overview">
                     <h3>Overview</h3>
                     <p> "${overview}"</p>
-                </div>
-            </div>
             `
             main.appendChild(movieEl)
         })

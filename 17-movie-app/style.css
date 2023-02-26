@@ -42,6 +42,25 @@ header{
     background-color: var(--primary-color);
 }
 
+    /* Page Title*/
+
+.page-info{
+    text-align: center;
+    margin: 10px;
+    color: lightgray;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.page-subtitle {
+    font-size: 16px;
+    margin: 0;
+}
     /*Movie Banners*/
 
 .main{

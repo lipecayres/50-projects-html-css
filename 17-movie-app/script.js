@@ -54,7 +54,7 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
     
                 <div class="movie-info">
                     <h3>${title}</h3>
-                    <span class="${}">${vote_average}</span>
+                    <span class="${getClassByRate(vote_average)}">${vote_average}</span>
                 </div>
     
                 <div class="overview">
@@ -66,7 +66,7 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
 
         })
             // Getting class using rate
-            
+
         function getClassByRate(vote) {
             if (vote > 8) {
                 return 'green'

@@ -63,7 +63,7 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
                 </div>
             </div>
             `
-
+            main.appendChild(movieEl)
         })
             // Getting class using rate
 

@@ -61,3 +61,29 @@ main{
 .movie img {
     width: 100%;
 }
+
+        /*Movie Banners Overview*/
+
+
+.movie-info {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 14px 14px;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 0;
+}
+
+.movie-info span {
+    background-color: var(--primary-color);
+    padding: 4px 8px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+
+
+

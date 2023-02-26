@@ -65,4 +65,16 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
             `
 
         })
+
+        function getClassByRate(vote) {
+            if (vote > 8) {
+                return 'green'
+            } else if (vote >= 5) {
+                return 'orange'
+            } else {
+                return 'red'
+            }
+        }
+
+
     }

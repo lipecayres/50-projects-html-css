@@ -37,5 +37,9 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
     }
 
     function showMovies(movies) {
+        main.innerHTML = ''
 
+        movies.forEach((movie) => {
+            const { title,poster_path, vote_average, overview } = movie
+        })
     }

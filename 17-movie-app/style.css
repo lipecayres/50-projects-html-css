@@ -40,3 +40,24 @@ header{
     outline: none;
     background-color: var(--primary-color);
 }
+
+    /*Movie Banners*/
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie{
+    width: 300px;
+    margin: 14px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.movie img {
+    width: 100%;
+}

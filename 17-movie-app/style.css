@@ -12,6 +12,7 @@ body{
     background-color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 
 /* Search bar */
@@ -46,10 +47,11 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .movie{
-    width: 300px;
+    width: 200px;
     margin: 14px;
     background-color: var(--secondary-color);
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
@@ -80,9 +82,9 @@ main{
 .movie-info span {
     background-color: var(--primary-color);
     padding: 4px 8px;
-    height: 32px;
     border-radius: 5px;
     font-weight: bold;
+    height: 32px;
 }
 
         /*Movie Rate - Colors*/
@@ -114,7 +116,7 @@ main{
 }
 
 .movie:hover .overview{
-    transform: translateY(20%);
+    transform: translateY(0);
    
 
 }

@@ -14,8 +14,29 @@ body{
     margin: 0;
 }
 
+/* Search bar */
 header{
     padding: 20px;
     display: flex;
     justify-content: flex-end;
+    background-color: var(--secondary-color);
+}
+
+.search {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.search::placeholder{
+    color: #7378c5;
+}
+
+.search:focus{
+    outline: none;
+    background-color: var(--primary-color);
 }

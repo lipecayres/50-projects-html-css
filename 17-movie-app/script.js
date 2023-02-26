@@ -1,8 +1,8 @@
     // URL's to use API
 
-const API_URL = 'http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=8e837886524772327b33dd2f1553c14d&page=1'
+const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=8e837886524772327b33dd2f1553c14d&page=1'
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
-const SEARCH_API = 'http://api.themoviedb.org/3/search/movie?api_key=8e837886524772327b33dd2f1553c14d&querry"'
+const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e837886524772327b33dd2f1553c14d&query="'
 
     // HTML link's
 
@@ -16,7 +16,11 @@ const SEARCH_API = 'http://api.themoviedb.org/3/search/movie?api_key=8e837886524
         const searchTerm = search.value 
     
         if(searchTerm && searchTerm !== ''){
-            getMovies()
+            getMovies(SEARCH_API + searchTerm)
+
+            search.value = ''
+        } else {
+            window.location.reload()
         }
     })
     

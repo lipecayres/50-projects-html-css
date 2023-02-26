@@ -62,7 +62,7 @@ main{
     width: 100%;
 }
 
-        /*Movie Banners Overview*/
+        /*Movie Banners Info*/
 
 
 .movie-info {
@@ -82,8 +82,21 @@ main{
     padding: 4px 8px;
     height: 32px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
+        /*Movie Rate - Colors*/
 
+.movie-info span.green {
+    color: lightgreen;
+}
 
+.movie-info span.red {
+    color: red;
+}
 
+.movie-info span.orange {
+    color: orange;
+}
+
+        /* Movie Overview */

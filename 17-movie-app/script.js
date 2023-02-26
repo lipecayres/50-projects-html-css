@@ -14,7 +14,8 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=8e83788652
         e.preventDefault()
     
         const searchTerm = search.value 
-    
+            
+            // Checking empty input
         if(searchTerm && searchTerm !== ''){
             getMovies(SEARCH_API + searchTerm)
 

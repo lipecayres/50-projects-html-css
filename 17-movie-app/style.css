@@ -17,10 +17,18 @@ body{
 
 
 /* Search bar */
+
 header{
     padding: 20px;
     display: flex;
     justify-content: flex-end;
+    background-color: var(--secondary-color);
+}
+
+.searchDiv{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     background-color: var(--secondary-color);
 }
 

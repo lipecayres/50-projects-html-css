@@ -85,8 +85,8 @@ header {
 }
 
 .movie{
-    width: 200px;
-    margin: 14px;
+    width: 220px;
+    margin: 18px;
     background-color: var(--secondary-color);
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     position: relative;

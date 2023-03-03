@@ -16,7 +16,7 @@ body{
 }
 
 
-/* Search bar */
+/* Site title */
 
 header {
     padding: 10px;
@@ -31,6 +31,29 @@ header {
     top: 10px;
     right: 10px;
 }
+
+    /* Page Title*/
+
+    .page-info{
+        text-align: center;
+        margin: 10px;
+        color: lightgray;
+        margin-bottom: 30px;
+    }
+    
+    .page-title {
+        font-size: 48px;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .page-subtitle {
+        font-size: 16px;
+        margin: 0;
+    }
+
+
+    /* Search bar */
 
 .searchDiv{
     padding: 20px;
@@ -57,25 +80,24 @@ header {
     background-color: var(--primary-color);
 }
 
-    /* Page Title*/
-
-.page-info{
-    text-align: center;
-    margin: 10px;
-    color: lightgray;
-    margin-bottom: 30px;
-}
-
-.page-title {
-    font-size: 48px;
-    margin: 0;
-    font-weight: bold;
-}
-
-.page-subtitle {
+form button {
+    background-color: transparent;
+    color: #7378c5;
+    font-family: inherit;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50px;
     font-size: 16px;
-    margin: 0;
+    margin-left: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
+
+form button:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
     /*Movie Banners*/
 
 .main{

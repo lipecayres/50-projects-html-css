@@ -57,3 +57,15 @@ body::before{
 .slide.active{
     opacity: 1;
 }
+
+/* arrow properties */
+.arrow{
+    position: fixed;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 30px;
+    border: 2x solid orange;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}

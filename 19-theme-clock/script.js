@@ -30,7 +30,9 @@ function setTime() {
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
 
-    hourEl.style.transform = `translate(-50%, -100%) rotate(${}deg)`
+    hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(hoursforClock, 0, 11, 0, 360)}deg)`
+    minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 59, 0, 360)}deg)`
+    secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 59, 0, 360)}deg)`
 }
 
 const scale = (num,in_min, in_max, out_min, out_max) => {
@@ -39,3 +41,5 @@ const scale = (num,in_min, in_max, out_min, out_max) => {
 
 
 setTime();
+
+setInterval(setTime, 1000);

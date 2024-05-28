@@ -30,7 +30,12 @@ function setTime() {
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
 
-
+    hourEl.style.transform = `translate(-50%, -100%) rotate(${}deg)`
 }
+
+const scale = (num,in_min, in_max, out_min, out_max) => {
+    return (num-in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+
 
 setTime();

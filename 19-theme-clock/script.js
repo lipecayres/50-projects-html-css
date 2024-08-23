@@ -2,7 +2,7 @@ const hourEl = document.querySelector('.hour')
 const minuteEl = document.querySelector('.minute')
 const secondEl = document.querySelector('.second')
 const timeEl = document.querySelector('.time')
-const dateEl = document.querySelector('date')
+const dateEl = document.querySelector('.date')
 const toggle = document.querySelector('.toggle')
 
 
@@ -26,6 +26,7 @@ function setTime() {
     const time = new Date();
     const month = time.getMonth();
     const day = time.getDay();
+    const date = time.getDate();
     const hours = time.getHours();
     const hoursforClock = hours %12;
     const minutes = time.getMinutes();
@@ -36,7 +37,11 @@ function setTime() {
     minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 59, 0, 360)}deg)`
     secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 59, 0, 360)}deg)`
 
-    timeEl.innerHTML = `${hoursforClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`
+    timeEl.innerHTML = `${hoursforClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`;
+
+    dateEl.innerHTML = `${days[day]}, ${months[month]} <span class = "circle"> ${date} </span>`
+
+
 }
 
 const scale = (num,in_min, in_max, out_min, out_max) => {

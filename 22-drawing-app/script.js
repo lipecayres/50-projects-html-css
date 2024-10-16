@@ -20,21 +20,26 @@ clear.addEventListener("click", () => {
   ctx.clearRect(0, 0, 804, 804);
 });
 
+// color picker function
+colorDisplay.addEventListener("input", (e) => {
+  color = e.target.value;
+});
+
 // Increase size button
 increase.addEventListener("click", () => {
   if (size < 30) {
     size += 5;
   }
-  updateScreen()
+  updateScreen();
 });
 
 // decrease size button
 decrease.addEventListener("click", () => {
-    if (size >5) {
-      size -= 5;
-    }
-    updateScreen()
-  });
+  if (size > 5) {
+    size -= 5;
+  }
+  updateScreen();
+});
 
 // Update info on screen
 function updateScreen() {
@@ -48,7 +53,6 @@ canvas.addEventListener("mousedown", (e) => {
 
   x = e.offsetX;
   y = e.offsetY;
-
 });
 
 canvas.addEventListener("mouseup", (e) => {
@@ -56,7 +60,6 @@ canvas.addEventListener("mouseup", (e) => {
 
   x = undefined;
   y = undefined;
-
 });
 
 canvas.addEventListener("mousemove", (e) => {
@@ -87,4 +90,3 @@ function drawLine(x1, y1, x2, y2) {
   ctx.lineWidth = size * 2;
   ctx.stroke();
 }
-

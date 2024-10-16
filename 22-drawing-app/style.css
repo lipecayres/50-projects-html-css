@@ -38,6 +38,11 @@ canvas {
     width:50px;
     margin: .25rem;
     padding: .25rem;
+    cursor: pointer;
+}
+
+.toolbox > #size {
+    font-size: 1.7rem;
 }
 
 .toolbox > *:last-child {

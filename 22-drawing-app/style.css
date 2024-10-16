@@ -44,3 +44,13 @@ canvas {
     width:120px;
     margin-left: auto;
 }
+
+.toolbox > *:hover {
+    transform: scale(1.05);
+    outline: none;
+}
+
+.toolbox > *:active {
+    transform: scale(.98);
+    outline: none;
+}

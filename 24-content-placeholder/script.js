@@ -9,4 +9,4 @@ setTimeout(() => {
     loadersText.forEach(loader => {
         loader.classList.remove('animated-bg-text');
     });
-}, 2000); // 2 seconds
+}, 1000); // 2 seconds

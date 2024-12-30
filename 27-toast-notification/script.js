@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 const toasts = document.getElementById("toasts");
 const button = document.getElementById("button");
@@ -11,6 +11,7 @@ const messages = [
 ];
 
 const types = ["info", "success", "error"];
+
 button.addEventListener("click", () => createNotification());
 
 function createNotification(message = null, type = null) {
@@ -18,7 +19,7 @@ function createNotification(message = null, type = null) {
   notification.classList.add("toast");
   notification.classList.add(type ? type : getRandomType());
 
-  notification.innerText = message ? message : getRandomMessage();
+  notification.textContent = message ? message : getRandomMessage();
 
   toasts.appendChild(notification);
 
@@ -28,9 +29,9 @@ function createNotification(message = null, type = null) {
 }
 
 function getRandomMessage() {
-  return messages.at(Math.floor(Math.random() * messages.length));
+  return messages[Math.floor(Math.random() * messages.length)];
 }
 
 function getRandomType() {
-  return types.at(Math.floor(Math.random() * types.length));
+  return types[Math.floor(Math.random() * types.length)];
 }
